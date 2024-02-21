@@ -1,9 +1,7 @@
 
-import logo from './logo.svg';
-
 function App() {
   return (
-    <div className="App">
+    <div className="w-full h-screen bg-black">
 
     </div>
   );
