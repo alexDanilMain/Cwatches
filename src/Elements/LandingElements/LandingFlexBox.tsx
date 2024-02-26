@@ -1,3 +1,5 @@
+import LandingButton from "./LandingButton";
+
 function LandingFlexBlox() {
   return (
     <div className="flex flex-col text-white mt-52 gap-20">
@@ -6,9 +8,7 @@ function LandingFlexBlox() {
         Explore endless customization options and create a timepiece that speaks
         to your personality. Your time, your design - only at CustomWatches.
       </p>
-      <button className="w-72 h-16 bg-white rounded-full text-black text-2xl font-bold">
-        Customise It
-      </button>
+    <LandingButton ButtonText="Customise It" />
     </div>
   );
 }

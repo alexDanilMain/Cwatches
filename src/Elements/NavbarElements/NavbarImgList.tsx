@@ -1,6 +1,6 @@
 
 interface NavbarImgListProps {
-    image: string; // Assuming image is passed as a string path to the image source
+    image: string; 
   }
 
   
