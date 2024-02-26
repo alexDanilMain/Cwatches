@@ -5,7 +5,7 @@ import GrayStar from "../../imgs/landing.images/GrayStar.png";
 
 export default function Landing() {
   return (
-    <div className="h-[995px] w-full relative overflow-hidden">
+    <section className="h-[995px] w-full relative overflow-hidden">
       <Container>
             <LandingFlexBlox />
       </Container>
@@ -19,6 +19,6 @@ export default function Landing() {
         className="absolute left-0 bottom-0"
         alt="Arm with a clock"
       ></img>
-    </div>
+    </section>
   );
 }
