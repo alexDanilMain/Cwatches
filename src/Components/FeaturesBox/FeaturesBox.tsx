@@ -1,4 +1,5 @@
 import Container from "../../Elements/Container";
+import FT_Items from "../../Elements/FeaturesBoxElements/FT_Items";
 import deleveryIcon from "../../imgs/featuresbox.images/delevery_icon.svg";
 import returnIcon from "../../imgs/featuresbox.images/return_icon.svg";
 import warrantyIcon from "../../imgs/featuresbox.images/warranty_icon.svg";
@@ -8,20 +9,12 @@ function FeaturesBox() {
     <div className="bg-zinc-100 h-32 w-full ">
       <Container>
         <div className="flex justify-between items-center h-full text-2xl">
-          <div className="flex items-center gap-6">
-            <img src={warrantyIcon} alt="Delevery Icon" />
-            <p>1 year warranty</p>
-          </div>
+            <FT_Items Logo={warrantyIcon} Content={"1 year warranty"} />
 
-          <div className="flex items-center gap-6">
-            <img src={deleveryIcon} alt="Delevery Icon" />
-            <p>Free courier delivery</p>
-          </div>
+            <FT_Items Logo={deleveryIcon} Content={"Free courier delivery"} />
 
-          <div className="flex items-center gap-6">
-            <img src={returnIcon} alt="Delevery Icon" />
-            <p>Free returns within 7 day</p>
-          </div>
+            <FT_Items Logo={returnIcon} Content={"Free returns within 7 day"} />
+
         </div>
       </Container>
     </div>
