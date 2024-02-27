@@ -14,7 +14,6 @@ function FeaturesBox() {
             <FT_Items Logo={deleveryIcon} Content={"Free courier delivery"} />
 
             <FT_Items Logo={returnIcon} Content={"Free returns within 7 day"} />
-
         </div>
       </Container>
     </div>

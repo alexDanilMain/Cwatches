@@ -1,6 +1,7 @@
 import FeaturesBox from "./Components/FeaturesBox/FeaturesBox";
 import Landing from "./Components/Landing/Landing";
 import Navbar from "./Components/Navbar/Navbar";
+import WatchesCollection from "./Components/WatchesCollection/WatchesCollection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar/>
         <Landing/>
         <FeaturesBox/>
+        <WatchesCollection />
     </div>
   );
 }
