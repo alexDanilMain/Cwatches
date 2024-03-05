@@ -5,7 +5,7 @@ import SearchIcon from "../../imgs/navbar.images/Search_Icon.svg";
 
 function NavbarList() {
     return (
-        <ul className="flex items-center gap-16">
+        <ul className="flex items-center gap-4 lg:gap-16">
             <NavbarLinkList />
             <ShoppingCart />
             <NavbarImgList image={SearchIcon}/>
