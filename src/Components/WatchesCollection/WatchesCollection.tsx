@@ -6,7 +6,7 @@ import greenWatch from "../../imgs/watches/greenWatch.png";
 export default function WatchesCollection(){
 
     return(
-        <div className="bg-white">
+        <section className="bg-white">
             <Container>
                 <main className="py-12 flex flex-col items-center gap-12">
                     <Heading  maxWidth="240px" color="black" content={"Collection"} />
@@ -18,13 +18,13 @@ export default function WatchesCollection(){
                     <WatchContainer watchImg={greenWatch} watchName="Sport CWATCH" watchPrice="250" />
 
                     <WatchContainer watchImg={greenWatch} watchName="Sport CWATCH" watchPrice="250" />
-                    
+
                     <WatchContainer watchImg={greenWatch} watchName="Sport CWATCH" watchPrice="250" />
 
 
                     </div>
                 </main>
             </Container>
-        </div>
+        </section>
     )
 }
