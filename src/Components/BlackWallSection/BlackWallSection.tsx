@@ -14,7 +14,7 @@ function BlackWallSection() {
                     <img src={watchCollection} alt="3 Watches" />
                     <p> 250$ </p>
                 </div>
-                <button className="font-bold py-2 px-8 bg-white rounded-full text-black"> Select</button>
+                <a className="font-bold py-2 px-8 bg-white rounded-full text-black"> Select</a>
             </div>
       </Container>
     </div>

@@ -1,6 +1,7 @@
 import BlackWallSection from "./Components/BlackWallSection/BlackWallSection";
 import FeaturesBox from "./Components/FeaturesBox/FeaturesBox";
 import Landing from "./Components/Landing/Landing";
+import MiniAboutSection from "./Components/MiniAboutSection/MiniAboutSection";
 import Navbar from "./Components/Navbar/Navbar";
 import WatchesCollection from "./Components/WatchesCollection/WatchesCollection";
 
@@ -13,6 +14,7 @@ function App() {
         <FeaturesBox/>
         <WatchesCollection />
         <BlackWallSection />
+        <MiniAboutSection />
     </div>
   );
 }
