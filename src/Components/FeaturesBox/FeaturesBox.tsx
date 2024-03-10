@@ -6,9 +6,9 @@ import warrantyIcon from "../../imgs/featuresbox.images/warranty_icon.svg";
 
 function FeaturesBox() {
   return (
-    <div className="bg-zinc-100 h-32 w-full ">
+    <div className="bg-zinc-100 py-8 w-full ">
       <Container>
-        <div className="flex justify-between items-center h-full text-2xl">
+        <div className="flex flex-col gap-8 lg:justify-between lg:flex-row items-center h-full text-2xl">
             <FT_Items Logo={warrantyIcon} Content={"1 year warranty"} />
 
             <FT_Items Logo={deleveryIcon} Content={"Free courier delivery"} />
