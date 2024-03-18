@@ -9,7 +9,7 @@ function Navbar() {
     <NavbarBox>
       <Container>
         <NavbarSpacing>
-          <CwatchesLogo invert=""/>
+          <CwatchesLogo extraClass=""/>
           <NavbarList />
         </NavbarSpacing>
       </Container>

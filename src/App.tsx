@@ -9,7 +9,7 @@ import WatchesCollection from "./Components/WatchesCollection/WatchesCollection"
 function App() {
   return (
     <div className="w-full bg-black">
-     
+        
         <Navbar/>
         <Landing/>
         <FeaturesBox/>

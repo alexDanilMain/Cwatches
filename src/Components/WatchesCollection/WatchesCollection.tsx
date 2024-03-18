@@ -11,7 +11,7 @@ export default function WatchesCollection(){
                 <main className="py-12 flex flex-col items-center gap-12">
                     <Heading  maxWidth="240px" color="black" content={"Collection"} />
 
-                    <div className="flex gap-6 w-full justify-start ml-6 overflow-x-scroll">
+                    <div className="flex gap-6 w-full justify-start ml-6 lg:ml-0 overflow-x-scroll lg:overflow-x-hidden">
             
                     <WatchContainer watchImg={greenWatch} watchName="Sport CWATCH" watchPrice="250" />
 
@@ -21,8 +21,8 @@ export default function WatchesCollection(){
 
                     <WatchContainer watchImg={greenWatch} watchName="Sport CWATCH" watchPrice="250" />
 
-
                     </div>
+
                 </main>
             </Container>
         </section>

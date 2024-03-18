@@ -1,6 +1,6 @@
 function Container({ children }: {children: React.ReactNode}): JSX.Element {
   return (
-    <div className="w-screen px-4 md:w-4/5 mx-auto h-full overflow-hidden"> 
+    <div className="w-screen px-4 lg:w-10/12 mx-auto h-full overflow-hidden"> 
     {children} 
     </div>
   );
