@@ -1,9 +1,13 @@
 import CwatchesLogoImg from "../imgs/navbar.images/Cwatches_Logo.png";
+interface Invert {
+    invert: string;
+  }
 
-function CwatchesLogo(){
+
+const CwatchesLogo:React.FC <Invert> = ({invert}) => {
 
     return (
-        <img src={CwatchesLogoImg} className="w-[59px] h-[45px] lg:w-[91px] lg:h-[67px]" alt="Cwatches logo" />
+        <img src={CwatchesLogoImg} className={`w-[59px] h-[45px] lg:w-[91px] lg:h-[67px] ${invert}`} alt="Cwatches logo" />
     );
   }
   

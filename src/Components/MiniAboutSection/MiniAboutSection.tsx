@@ -5,7 +5,7 @@ import RandomGuyWithWatch from "../../imgs/MiniAboutSection/RandomGuyWithWatch.p
 
 function MiniAboutSection() {
   return (
-    <div className="bg-zinc-100 py-12 w-full ">
+    <div className="bg-zinc-100 pt-12 w-full ">
       <Container>
         <div className="flex flex-col items-center gap-12">
           <Heading maxWidth="219px" color="black" content="About Cwatches" />
